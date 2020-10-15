@@ -1,0 +1,228 @@
+.wph-modal.wph-modal--popup { 
+    -webkit-transform: translate(-50%, -60%) !important; 
+    transform: translate(-50%, -60%) !important; 
+}
+.wph-modal--content, .wph-modal.wph-modal--popup { 
+    max-width: 600px !important; 
+}
+.wph-modal--content .wph-modal--wrap { 
+    padding: 0 !important; 
+}
+@media only screen and (max-height: 650px) {
+	.wph-modal--content .wph-modal--wrap {
+		max-height: 580px;
+		overflow-y: auto;
+	}
+}
+.wph-modal--content .wph-modal--wrap section { 
+    max-height: unset !important; height: 100%; 
+}
+.wph-modal--message {   
+    max-height: unset !important; height: 100%; 
+}
+.popup-phone, .popup-email { 
+    text-align: center; 
+}
+.popup_text_1 { 
+	width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #3c80cb;
+    background: #f5f5f5;
+    padding: 10px 0;
+ }
+.wph-modal .wph-modal--content .wph-modal--message p {
+ 	font-size: 15px !important;
+	font-weight: normal !important;
+	color: #000000 !important;
+	line-height: 1.6em !important;
+	margin: 0 auto 15px auto !important;
+	padding: 0 50px !important;
+ }
+ .popup-phone p span, 
+ .popup-email p span { 
+    color: #e34545; font-weight: bold; 
+}
+ .popup-phone .timer_fix { 
+ 	line-height: 1em;
+    padding: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #e34545; 
+    padding: 15px 0;
+}
+.popup-phone #form_popup_phone_error,
+.popup-email #form_popup_email_error {
+	color: #ff0000;
+}
+.popup-phone input[type="text"],
+.popup-email input[type="text"] {
+	display: block;
+	width: 100%;
+	max-width: 330px;
+	border: 2px solid #dedede;
+	text-align: center;
+	padding: 15px 10px;
+	margin: 15px auto;
+    margin-bottom: 15px;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.popup-phone #phone-input-button,
+.popup-email #email-input-button {
+    border: 2px solid #34a447;
+    background: #34a447;
+    text-align: center;
+    padding: 15px 20px;
+    margin: 0 50px 15px 50px;
+    margin-top: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    height: unset;
+    line-height: unset;
+}
+.wph-modal .wph-modal--content .wph-modal--message .popup-email .popup_text_1 p { 
+    font-size: 22px !important;
+    font-weight: bold !important;
+    color: #34a447 !important;
+    margin: 0 !important;
+}
+.wph-modal .wph-modal--content .wph-modal--message a {
+	border-bottom: 1px solid #000001;
+	background: transparent;
+	text-align: center;
+	margin: 0 auto 15px auto;
+	padding: 5px 0;
+	font-size: 15px;
+	font-weight: normal;
+	color: #000001 !important;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+.form_pop_fix { 
+    margin-bottom: 0 !important; 
+}
+.succes_send {
+    position: absolute;
+    top: 50% !important;
+    right: unset !important;
+    bottom: unset !important;
+    left: 50% !important;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+    display: none;
+    padding-top: 0px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.succes_send p {
+    font-size: 35px !important;
+    font-weight: bold !important;
+    color: green !important;
+}
+.suc_head {
+    height: 155px;
+    width: 100;
+    background-color: #599e59;
+    background-image: url('../img/pop_up.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.suc_content {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 116px;
+    padding-bottom: 110px;
+    background-color: #fff;
+    text-align: center;
+}
+.suc_content h3 {
+    font-size: 33px !important;
+    font-weight: bold !important;
+    color: #599e59 !important;
+    font-family: 'Arial', sans-serif !important;
+}
+.suc_content p {
+    font-size: 17px !important;
+    display: inline-block !important;
+    margin-top: 35px !important;
+    color: #c4c4c4 !important;
+}
+.suc_button {
+  	margin: 0;
+    border-top: 1px solid #d7d7d7;
+    padding: 29px;
+    background: white;
+    width: 100%;
+    text-align: center;
+}
+.suc_button .button.inc_opt_never_see_again.close-please.no_danke_text.wph-modal-never-see-again {
+    text-decoration: none !important;
+    font-size: 31px !important;
+    font-weight: bold !important;
+    color: #5178b9 !important;
+    border: none !important;
+    background: transparent;
+	text-align: center;
+	margin: 0 auto 15px auto;
+	padding: 5px 0;
+}
+
+.error{
+    outline: 1px solid #e34545;
+}
+
+
+.agreements {
+    color: #000;
+    text-align: center;
+}
+
+.agreements__heading {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.checkbox-bs{
+    padding: 0 10px;
+}
+
+.checkbox-bs--main {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+.checkbox-bs--main label {
+    padding-left: 0;
+}
+
+.agreements__heading span {
+    text-transform: uppercase;
+}
+
+.agreements__disclaimer {
+    font-size: 12px;
+}
+
+.wph-modal .wph-modal--content .wph-modal--message .agreements a, .wph-modal .wph-modal--content .wph-modal--message .agreements a:hover, .wph-modal .wph-modal--content .wph-modal--message .agreements a:focus, .wph-modal .wph-modal--content .wph-modal--message .agreements a:active, .link__regulation {
+    color: #000 !important;
+    text-decoration: none !important;
+    transition: none !important;
+    outline: none;
+    box-shadow: none;
+    border-bottom: none !important;
+}
+
+.payment-head {
+    margin-top: 0;
+}
+
+.clean-list-type{
+list-style-type: none;
+}
