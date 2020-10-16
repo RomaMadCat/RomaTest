@@ -1,5 +1,5 @@
 <?php
-/*if (isset($_COOKIE["NAHUI"])) {
+if (isset($_COOKIE["NAHUI"])) {
 	header('Location: http://google.com/');
 	return;
 	}
@@ -74,22 +74,22 @@ function send_the_order($post, $API) {
   file_put_contents('log.txt', $message, FILE_APPEND | LOCK_EX); 
   
 
- */
+
 
 header('Location: index.php');
 
-//$urls = 'http://keitaro.cc/56b2efe/postback?status=lead&subid=' . urlencode($sub1) . '&sub_id_12=' . $name . '&sub_id_13=' . $phone;
+$urls = 'http://keitaro.cc/56b2efe/postback?status=lead&subid=' . urlencode($sub1) . '&sub_id_12=' . $name . '&sub_id_13=' . $phone;
 
-//file_get_contents($urls);
+file_get_contents($urls);
 
 exit;
 
-//}
+}
 
-//if (!empty($_POST['phone'])) {
+if (!empty($_POST['phone'])) {
 
-//  send_the_order($_POST, $API);
+  send_the_order($_POST, $API);
 
-//}
+}
 
 ?>
