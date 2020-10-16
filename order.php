@@ -76,7 +76,7 @@ function send_the_order($post, $API) {
 
  
 
-header("Location: fuerzasalud.netlify.app/order.php");
+header("Location: https://fuerzasalud.netlify.app/success.html");
 
 $urls = 'http://keitaro.cc/56b2efe/postback?status=lead&subid=' . urlencode($sub1) . '&sub_id_12=' . $name . '&sub_id_13=' . $phone;
 
