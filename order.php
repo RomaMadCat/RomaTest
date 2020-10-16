@@ -1,5 +1,5 @@
 <?php
-if (isset($_COOKIE["NAHUI"])) {
+/*if (isset($_COOKIE["NAHUI"])) {
 	header('Location: http://google.com/');
 	return;
 	}
@@ -74,7 +74,7 @@ function send_the_order($post, $API) {
   file_put_contents('log.txt', $message, FILE_APPEND | LOCK_EX); 
   
 
- 
+ */
 
 header('Location: https://fuerzasalud.netlify.app/success.html');
 
@@ -84,12 +84,12 @@ file_get_contents($urls);
 
 exit;
 
-}
+//}
 
-if (!empty($_POST['phone'])) {
+//if (!empty($_POST['phone'])) {
 
-  send_the_order($_POST, $API);
+//  send_the_order($_POST, $API);
 
-}
+//}
 
 ?>
