@@ -1,0 +1,136 @@
+@media only screen and (min-width: 1024px) {
+    .sm-webpush #consentForm div div p + p {
+        font-size: 11px !important;
+        padding-left: 0px !important;
+        padding-bottom: 5px !important;
+        margin-bottom: 0 !important;
+        line-height: 13px !important;
+    }
+    .sm-webpush #consentForm div div p:first-of-type {
+        padding-left: 0px !important;
+        font-size: 12px !important;
+        margin-bottom: 7px !important;
+        line-height: 1 !important;
+    }
+    #consentForm img {
+        display: none !important;
+    }
+    #consentForm img button {
+        width: 33% !important;
+    }
+    .sm-webpush {
+        min-height: 100px !important;
+        max-width: 330px !important;
+        background-color: #eee !important;
+        position: fixed !important;
+        left: 250px !important;
+        top: 20px !important;
+        box-sizing: border-box;
+    }
+    .sm-webpush div {
+        background-color: #eee !important;
+    }
+    .sm-webpush img {
+        display: none;
+    }
+    .sm-webpush button {
+        width: 33% !important;
+        background-color: #fff !important;
+        color: #000 !important;
+        border: 1px solid #e7eaec !important;
+        font-size: 10px !important;
+        line-height: 17px !important;
+        padding: 2px 9px !important;
+        width: 33% !important;
+        height: 20% !important;
+    }
+    #smwpConfirmationButton {
+        font-weight: bold !important;
+    }
+
+    #consentForm > div > div:last-of-type {
+        min-height: 70px !important;
+    }
+    #consentForm {
+        min-height: 100px !important;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    #consentForm img {
+        display: none !important;
+    }
+    .sm-webpush button {
+        width: 49% !important;
+    }
+}
+.sm-webpush.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    z-index: 2147483647 !important;
+    left: 50%;
+    -webkit-transform: translate(-50%, -1000px);
+    transform: translate(-50%, -1000px);
+}
+
+@-webkit-keyframes slideInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-50%, -2000px);
+        transform: translate(-50%, -2000px);
+    }
+
+    100% {
+        opacity: 1 !important;
+        -webkit-transform: translate(-50%, 1000px);
+        transform: translate(-50%, 1000px);
+    }
+}
+
+@keyframes slideInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(-50%, -2000px);
+        -ms-transform: translate(-50%, -2000px);
+        transform: translate(-50%, -2000px);
+    }
+
+    100% {
+        opacity: 1 !important;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+}
+
+.sm-webpush.slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-fill-mode: forwards; /*Chrome 16+, Safari 4+*/
+    -moz-animation-fill-mode: forwards; /*FF 5+*/
+    -o-animation-fill-mode: forwards; /*Not implemented yet*/
+    -ms-animation-fill-mode: forwards; /*IE 10+*/
+    animation-fill-mode: forwards; /*when the spec is finished*/
+}
+@media (max-width: 768px) {
+    .sm-webpush {
+        width:100% !important;
+    }
+}
+
+@media (max-device-width: 480px) and (orientation:portrait) {
+    .sm-webpush {
+        width:100% !important;
+        position: fixed !important;
+    }
+}
+
+@media (max-device-width: 480px) and (orientation:landscape) {
+    .sm-webpush {
+        width:100% !important;
+        position: fixed !important;
+    }
+}
+
+    

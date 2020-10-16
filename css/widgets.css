@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+option.widgets_color {
+	position: relative;
+}
+option.widgets_color:before {
+	vertical-align: middle;
+	margin-right: 4px;
+	display: inline-block;
+	content: "";
+	width: 10px;
+	height: 10px;
+}
+option.widgets_color.red:before {
+	background: #eb1c16;
+}
+option.widgets_color.blue:before {
+	background: #1794ce;
+}
+option.widgets_color.black:before {
+	background: #020c16;
+}
+option.widgets_color.dark_gray:before {
+	background: #5c6165;
+}
+option.widgets_color.gray:before {
+	background: #788188;
+}
+option.widgets_color.light_gray:before {
+	background: #8f9498;
+}
+option.widgets_color.green:before {
+	background: #6cac00;
+}
+option.widgets_color.light_gray2:before {
+	background: #aaadb2;
+}
